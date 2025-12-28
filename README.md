@@ -5,7 +5,7 @@
 Complete disaster recovery and backup solution for your home lab infrastructure using git-based configuration management with profile support.
 
 **Last Updated:** December 2025  
-**System:** Profile-based backup with git-crypt encryption  
+**System:** Profile-based config backup with git-crypt encryption  
 **Servers Covered:** 3 (NAS, DC, ML)
 
 ---
@@ -878,8 +878,12 @@ git commit -m "Improved backup script: added feature X"
 git push
 ```
 
+# Attribution
+
+This project was built using AI-assisted development with Claude. I told it what to build and the AI did a lot of typing. Commits with AI contributions are marked appropriately because I'm not going to pretend otherwise.
+
 ---
 
 **Version:** 1.0  
 **Last Updated:** December 2025  
-**Author:** regul8or
+**Author:** regul8or with help of AI Assistant
